@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 i=0
-sizes=(60 57 40 29)
+sizes=(76 72 60 57 50 40 29)
 
 iconset="${1%.*}".iconset
 rm -rf $iconset

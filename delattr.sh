@@ -1,4 +1,5 @@
 #!/bin/bash
+xattr -d -r com.apple.xcode.PlistType *
 xattr -d -r com.apple.FinderInfo *
 xattr -d -r com.apple.TextEncoding *
 xattr -d -r com.apple.ResourceFork *
